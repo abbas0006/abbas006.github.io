@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+#as{
+  padding: 24px 24px 22px;
+}
+
+body{
+  font-size:100%;
+font-family: 'Roboto', sans-serif;
+}
+div{
+  background:white;
+  width:40em;
+  height:5em;
+}
+.in{
+ width: 300px;
+ height:40px;
+}
+h3,p,b{
+text-align: left;
+}
+.in#bac{
+  background:aqua
+}

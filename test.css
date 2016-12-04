@@ -1,0 +1,47 @@
+body{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+p [align="left"]{
+  color: red;
+}
+a[href*="www"]{
+color:red;
+}
+a[href^="http"]{
+  color:red;
+}
+a[href$="com"]{ color:red;
+}
+p[class~="dog"]{
+  color: pink;
+}
+p[class|="dog"]{
+  color: green;
+}
+img{
+  border-radius: 33px;
+}
+a:link{
+  text-decoration:none;
+}
+a:visited{
+  color: blue;
+}
+a:{
+  color: black;
+}
+a:hover{
+  color: green;
+}
+a:active{
+  color: black;
+}
+p{
+  color: black;
+}
+p:first-child{
+  color:black;
+}
+p:last-child{
+  color: black;
+}
